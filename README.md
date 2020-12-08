@@ -24,8 +24,6 @@ Each row in this table is an order and every order can contain only one product.
 - `bill_raw_text`: A string that represents the **raw text of the bill** associated with the order
 - `date`: **The date** of the order.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/22cd3d03-d725-492d-a22e-aa53503540c2/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/22cd3d03-d725-492d-a22e-aa53503540c2/Untitled.png)
-
 ## Products Table
 
 Each row represents a **distinct product**. The fields are:
@@ -33,8 +31,6 @@ Each row represents a **distinct product**. The fields are:
 - `product_id`: The product ID
 - `product_name`: The product name
 - `price`: The product price
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/85fc55b1-bc42-4b69-aba4-86d3c5d04fb9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/85fc55b1-bc42-4b69-aba4-86d3c5d04fb9/Untitled.png)
 
 ## Sellers Table
 
@@ -46,8 +42,6 @@ This table contains the **list of all the sellers**:
 target is 100,000, the employee needs to sell 100,000 products he can
 hit the quota by selling 100,000 units of product_0, but also selling
 30,000 units of product_1 and 70,000 units of product_2
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bf2bf54f-02e7-4c5f-b5d0-e4f32fa856dc/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bf2bf54f-02e7-4c5f-b5d0-e4f32fa856dc/Untitled.png)
 
 # Exercises
 
@@ -84,8 +78,6 @@ codespark = SparkSession.builder \
     .appName("Exercise1") \
     .getOrCreate()
 ```
-
-à vous de jouer maintenant : 
 
 ## Exercise #1
 
